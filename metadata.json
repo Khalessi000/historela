@@ -1,0 +1,6 @@
+{
+  "name": "HISTORELA — Books and Toys",
+  "description": "A premium editorial bookstore website dedicated to literary discovery, trending publications, new releases, and curated wooden toys.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

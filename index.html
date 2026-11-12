@@ -1,0 +1,797 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HISTORELA — Books and Toys | Premium Editorial Bookstore</title>
+    <meta name="description" content="A premium editorial bookstore website dedicated to literary discovery, trending publications, new releases, and curated wooden toys." />
+    
+    <!-- Open Graph & Social -->
+    <meta property="og:title" content="HISTORELA — Books and Toys" />
+    <meta property="og:description" content="A premium editorial bookstore website dedicated to literary discovery, trending publications, new releases, and curated wooden toys." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Google Fonts: Cormorant & Merriweather Sans (Strict Brand Manual) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet" />
+
+    <!-- Brand Stylesheet -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+
+    <!-- A. NAVIGATION BAR -->
+    <header class="site-header">
+      <div class="container nav-container">
+        <!-- Brand Wordmark & Emblem -->
+        <a href="#home" class="brand-mark" aria-label="HISTORELA Home">
+          <div class="brand-icon-emblem">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+              <line x1="12" y1="6" x2="16" y2="6"></line>
+              <line x1="12" y1="10" x2="16" y2="10"></line>
+            </svg>
+          </div>
+          <div class="brand-text-lockup">
+            <span class="brand-title">HISTORELA</span>
+            <span class="brand-subtitle">BOOKS AND TOYS</span>
+          </div>
+        </a>
+
+        <!-- Main Navigation Links -->
+        <nav aria-label="Main Navigation">
+          <ul class="nav-links">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#catalog" class="nav-link">Catalog</a></li>
+            <li><a href="#trending" class="nav-link">Trending</a></li>
+            <li><a href="#categories" class="nav-link">Categories</a></li>
+            <li><a href="#recommendations" class="nav-link">Discovery</a></li>
+            <li><a href="#about" class="nav-link">Sobre nosotros</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Utility Nav Actions -->
+        <div class="nav-actions">
+          <!-- Search Trigger -->
+          <button class="nav-icon-btn" id="search-toggle-btn" aria-label="Search catalog" title="Search Books">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </button>
+
+          <!-- Shopping Bag Trigger -->
+          <button class="nav-icon-btn" id="cart-toggle-btn" aria-label="View shopping bag" title="Shopping Bag">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <path d="M16 10a4 4 0 0 1-8 0"></path>
+            </svg>
+            <span class="cart-count-badge" id="cart-badge">1</span>
+          </button>
+
+          <!-- Mobile Hamburger -->
+          <button class="mobile-toggle" aria-label="Toggle navigation menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main id="main-content">
+
+      <!-- B. HERO SECTION -->
+      <section id="home" class="hero-section">
+        <div class="container hero-editorial-grid">
+          <!-- Left Editorial Copy -->
+          <div class="hero-content">
+            <span class="hero-kicker">HISTORELA · DESDE 2019</span>
+            <h1 class="hero-title">Every book opens a <em>new world.</em></h1>
+            <p class="hero-description">
+              Discover extraordinary stories, explore new releases, and find the next book that will stay with you. Thoughtfully curated volumes and heirloom toys that celebrate the enduring craft of reading.
+            </p>
+
+            <!-- Animated Call to Actions (Strict Requirement) -->
+            <div class="hero-ctas">
+              <a href="#catalog" class="cta-btn cta-primary">
+                Explore Books
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+
+              <a href="#new-releases" class="cta-btn cta-secondary">
+                Discover What's New
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+
+            <!-- Quantitative Rigor & Curatorial Highlights -->
+            <div class="hero-stats-strip">
+              <div class="stat-item">
+                <span class="stat-value">1,400+</span>
+                <span class="stat-label">Curated Titles</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-value">100%</span>
+                <span class="stat-label">Clothbound & Acid-Free</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-value">48h</span>
+                <span class="stat-label">Artisan Gift Wrapping</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Dimensional Book Photography Composition -->
+          <div class="hero-visual-frame">
+            <div class="hero-main-photo-card">
+              <img 
+                src="./src/assets/images/hero_reading_world_1794197221546.jpg" 
+                alt="HISTORELA sanctuary library with dark walnut bookshelves and warm reading tables" 
+                loading="eager" 
+                referrerpolicy="no-referrer"
+              />
+            </div>
+            
+            <!-- Layered Editorial Spotlight Badge -->
+            <div class="hero-book-overlay-badge" onclick="window.historela.openProductModal('arch-solitude')">
+              <span class="overlay-edition-tag">Featured Selection</span>
+              <h4 class="overlay-book-title">The Architecture of Solitude</h4>
+              <p class="overlay-book-author">By Clara Vance · Linen Gold Foil</p>
+              <div style="margin-top: 0.85rem; display: flex; align-items: center; justify-content: space-between;">
+                <span style="font-family: var(--font-h1); font-size: 1.25rem; font-weight: 700; color: var(--color-gold);">$32.00</span>
+                <span style="font-family: var(--font-ui); font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-bone); display: inline-flex; align-items: center; gap: 4px;">
+                  Explore <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- C. TRENDING BOOKS ("Trending Reads") -->
+      <section id="trending" class="section-spacing">
+        <div class="container">
+          <div class="section-header-block">
+            <div class="section-header-left">
+              <span class="section-kicker">CURATED ACCLAIM</span>
+              <h2 class="section-title">Trending <em>Reads</em></h2>
+              <p class="section-subtitle">The publications capturing readers' minds and commanding literary conversations this season.</p>
+            </div>
+            <div class="carousel-controls">
+              <button class="carousel-btn" id="trending-prev" aria-label="Previous trending books">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+              </button>
+              <button class="carousel-btn" id="trending-next" aria-label="Next trending books">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Horizontal Scroll / Grid Container -->
+          <div class="trending-scroll-container" id="trending-container">
+            <!-- Dynamically Rendered by js/interactions.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- D. LITERARY CATEGORIES -->
+      <section id="categories" class="section-spacing" style="background-color: #F8F2E4;">
+        <div class="container">
+          <div class="section-header-block">
+            <div class="section-header-left">
+              <span class="section-kicker">ARCHIVAL TAXONOMY</span>
+              <h2 class="section-title">Literary <em>Categories</em></h2>
+              <p class="section-subtitle">Explore carefully bound narratives organized across nine intellectual traditions.</p>
+            </div>
+            <a href="#catalog" class="editorial-link" onclick="window.historela.selectCategory('all')">
+              View All Editions
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Category Bento Grid -->
+          <div class="category-cards-grid" id="category-cards">
+            <!-- Dynamically Rendered by js/interactions.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- CATALOG BROWSER SECTION -->
+      <section id="catalog" class="section-spacing">
+        <div class="container">
+          <div class="section-header-block">
+            <div class="section-header-left">
+              <span class="section-kicker">THE COMPLETE ARCHIVE</span>
+              <h2 class="section-title">Browse Our <em>Collection</em></h2>
+              <p class="section-subtitle">Filter by category to explore our selection of clothbound novels, philosophy treatises, and wooden artifacts.</p>
+            </div>
+          </div>
+
+          <!-- Interactive Category Filter Tabs -->
+          <div class="category-tabs-bar" id="category-tabs">
+            <!-- Dynamically Populated -->
+          </div>
+
+          <!-- Filtered Catalog Grid -->
+          <div class="trending-scroll-container" id="catalog-grid" style="overflow-x: visible; grid-template-columns: repeat(3, 1fr);">
+            <!-- Dynamically Rendered -->
+          </div>
+        </div>
+      </section>
+
+      <!-- E. NEW RELEASES ("Fresh Stories, Just Arrived.") -->
+      <section id="new-releases" class="section-spacing new-releases-section">
+        <div class="container">
+          <div class="section-header-block">
+            <div class="section-header-left">
+              <span class="section-kicker">OCTOBER & NOVEMBER PRESS RELEASES</span>
+              <h2 class="section-title">Fresh Stories, <em>Just Arrived.</em></h2>
+              <p class="section-subtitle">Newly bound titles straight from independent European ateliers and historic university presses.</p>
+            </div>
+          </div>
+
+          <div class="new-releases-split">
+            <!-- Featured Spotlight Box -->
+            <div class="feature-spotlight-box">
+              <span class="metadata-tag terracotta">Fresh Release Spotlight</span>
+              <h3 style="font-family: var(--font-h1); font-size: 2.3rem; margin: 0.6rem 0; color: var(--color-navy); line-height: 1.15;">
+                Meditations: The Imperial Journal
+              </h3>
+              <div style="font-size: 0.9rem; color: var(--color-turquoise); margin-bottom: 1.25rem;">
+                Marcus Aurelius · Restored Translation by Historela Classics
+              </div>
+              
+              <div class="spotlight-quote">
+                “Dwell on the beauty of life. Watch the stars, and see yourself running with them.”
+              </div>
+
+              <p style="font-size: 0.95rem; color: #233b5c; margin-bottom: 1.5rem; line-height: 1.7;">
+                Preserved in deep navy buckram cloth with gilded ribbon markers, this definitive collector edition brings the personal notebooks of the Stoic Roman Emperor to life. Complete with comprehensive annotations from Oxford classicists.
+              </p>
+
+              <div class="spotlight-meta-grid">
+                <div class="meta-field">
+                  <span class="meta-field-label">Binding</span>
+                  <span class="meta-field-val">Buckram Cloth, Gilt Edges</span>
+                </div>
+                <div class="meta-field">
+                  <span class="meta-field-label">Price</span>
+                  <span class="meta-field-val">$34.00</span>
+                </div>
+                <div class="meta-field">
+                  <span class="meta-field-label">Paper</span>
+                  <span class="meta-field-val">120gsm Munken Pure</span>
+                </div>
+                <div class="meta-field">
+                  <span class="meta-field-label">Availability</span>
+                  <span class="meta-field-val">In Stock (Limited Folio)</span>
+                </div>
+              </div>
+
+              <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                <button class="cta-btn cta-primary" onclick="window.historela.addToCart('meditations-aurelius')">
+                  Add to Bag · $34.00
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+                <button class="cta-btn cta-secondary" onclick="window.historela.openProductModal('meditations-aurelius')">
+                  View Full Details
+                </button>
+              </div>
+            </div>
+
+            <!-- Large Editorial Image Composition -->
+            <div style="position: relative;">
+              <div style="border-radius: 4px; overflow: hidden; box-shadow: var(--shadow-book); border: 1px solid var(--border-subtle); background-color: #FFFFFF;">
+                <img 
+                  src="./src/assets/images/curated_book_flatlay_1794197237013.jpg" 
+                  alt="Curated open books, brass feather bookmark, and ceramic tea cup at HISTORELA" 
+                  style="width: 100%; height: 500px; object-fit: cover; display: block;" 
+                  referrerpolicy="no-referrer"
+                />
+              </div>
+              <div style="position: absolute; bottom: 24px; right: 24px; background: rgba(0, 37, 100, 0.92); backdrop-filter: blur(8px); color: var(--color-bone); padding: 1rem 1.5rem; border-radius: 2px; border-left: 3px solid var(--color-gold);">
+                <span style="font-family: var(--font-ui); font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-gold); display: block;">Tactile Heritage</span>
+                <span style="font-family: var(--font-h1); font-size: 1.15rem;">Every book has a story.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- F. PERSONALIZED RECOMMENDATIONS ("Let's Find Your Next Favorite Book.") -->
+      <section id="recommendations" class="section-spacing">
+        <div class="container">
+          <div class="quiz-card-wrapper">
+            <div class="quiz-header">
+              <span style="font-family: var(--font-h3); font-size: 0.75rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--color-gold); display: block; margin-bottom: 0.5rem;">
+                INTERACTIVE DISCOVERY
+              </span>
+              <h2>Let's Find Your Next Favorite Book.</h2>
+              <p>Answer four simple questions about your current mindset, and our bibliophile recommendation algorithm will curate the ideal match for your bedside table.</p>
+            </div>
+
+            <div class="quiz-steps-container">
+              <!-- Question 1: Mood -->
+              <div>
+                <label class="quiz-question-label">1. What reading mood speaks to you tonight?</label>
+                <div class="quiz-options-group">
+                  <button class="quiz-option-btn selected" data-group="mood" data-val="contemplative">Quiet & Contemplative</button>
+                  <button class="quiz-option-btn" data-group="mood" data-val="philosophical">Intellectually Rigorous</button>
+                  <button class="quiz-option-btn" data-group="mood" data-val="gripping">Suspenseful & Atmospheric</button>
+                  <button class="quiz-option-btn" data-group="mood" data-val="uplifting">Warm & Luminous</button>
+                </div>
+              </div>
+
+              <!-- Question 2: Literary Tradition -->
+              <div>
+                <label class="quiz-question-label">2. Which genre do you wish to explore?</label>
+                <div class="quiz-options-group">
+                  <button class="quiz-option-btn selected" data-group="genre" data-val="fiction">Literary Fiction</button>
+                  <button class="quiz-option-btn" data-group="genre" data-val="classics">Ancient & Modern Classics</button>
+                  <button class="quiz-option-btn" data-group="genre" data-val="history">History & Natural Sciences</button>
+                  <button class="quiz-option-btn" data-group="genre" data-val="personal-development">Mindfulness & Solitude</button>
+                  <button class="quiz-option-btn" data-group="genre" data-val="mystery-thriller">Atmospheric Mystery</button>
+                </div>
+              </div>
+
+              <!-- Question 3: Pace -->
+              <div>
+                <label class="quiz-question-label">3. What tempo do you prefer?</label>
+                <div class="quiz-options-group">
+                  <button class="quiz-option-btn selected" data-group="pace" data-val="reflective">Lyrical & Unhurried</button>
+                  <button class="quiz-option-btn" data-group="pace" data-val="steady">Steady & Absorbing</button>
+                  <button class="quiz-option-btn" data-group="pace" data-val="fast-paced">Page-Turning Momentum</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Dynamic Result Card -->
+            <div class="quiz-result-area" id="quiz-result-box">
+              <!-- Dynamically Computed by js/interactions.js -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- H. SOBRE NOSOTROS - LIBRO INTERACTIVO HISTORELA -->
+      <section id="about" class="about-book-section section-spacing" aria-labelledby="about-book-title">
+        <div class="container">
+          <header class="about-book-heading animate-on-scroll">
+            <span class="section-kicker">HISTORELA · DESDE 2019</span>
+            <h2 id="about-book-title" class="section-title">Abre el libro de <em>nuestra historia.</em></h2>
+            <p class="section-subtitle">Pasa las páginas y descubre nuestra historia, nuestro propósito y todo aquello que nos mueve.</p>
+          </header>
+          <div class="about-book-wrapper">
+            <div class="about-book animate-on-scroll" id="about-interactive-book" data-active-page="history">
+              <div class="about-book__floor-shadow" aria-hidden="true"></div>
+              <article class="about-book__page about-book__page--left" aria-label="Portada interior de HISTORELA">
+                <div class="about-book__paper-texture" aria-hidden="true"></div>
+                <div class="about-book__left-content">
+                  <div class="about-book__edition">HISTORELA · EDICIÓN 2019</div>
+                  <figure class="about-book__photo-figure">
+                    <div class="about-book__photo-frame"><img src="./images/fachada.jpeg" alt="Fachada de la librería HISTORELA" class="about-book__photo" loading="lazy" /></div>
+                    <figcaption class="about-book__photo-caption">Donde comenzó nuestra historia <span>Suba · Bogotá</span></figcaption>
+                  </figure>
+                  <div class="about-book__welcome"><span class="about-book__ornament" aria-hidden="true">✦</span><h3>Toda gran historia comienza con una idea.</h3><p>Y la nuestra nació en 2019.</p></div>
+                </div>
+                <span class="about-book__folio about-book__folio--left" aria-hidden="true">HISTORELA</span>
+              </article>
+              <div class="about-book__spine" aria-hidden="true"><span></span></div>
+              <article class="about-book__page about-book__page--right" aria-label="Contenido de Sobre Nosotros">
+                <div class="about-book__paper-texture" aria-hidden="true"></div>
+                <div class="about-book__turning-sheet" id="about-book-turning-sheet" aria-hidden="true"><div class="about-book__turning-front"></div><div class="about-book__turning-back"></div></div>
+                <button type="button" class="about-book__drawer-trigger" id="about-book-drawer-trigger" aria-expanded="false" aria-controls="about-book-drawer"><span class="about-book__drawer-icon">☰</span><span>Capítulos</span></button>
+                <div class="about-book__drawer" id="about-book-drawer" aria-hidden="true">
+                  <div class="about-book__drawer-header"><div><span>ÍNDICE</span><h4>Capítulos</h4></div><button type="button" class="about-book__drawer-close" id="about-book-drawer-close" aria-label="Cerrar capítulos">×</button></div>
+                  <nav class="about-book__chapter-list" aria-label="Capítulos de HISTORELA">
+                    <button type="button" class="about-book__chapter-button is-active" data-book-page="history"><span class="about-book__chapter-number">01</span><span class="about-book__chapter-name">Nuestra historia</span><span>→</span></button>
+                    <button type="button" class="about-book__chapter-button" data-book-page="mission"><span class="about-book__chapter-number">02</span><span class="about-book__chapter-name">Misión y visión</span><span>→</span></button>
+                    <button type="button" class="about-book__chapter-button" data-book-page="purpose"><span class="about-book__chapter-number">03</span><span class="about-book__chapter-name">Nuestro propósito</span><span>→</span></button>
+                    <button type="button" class="about-book__chapter-button" data-book-page="values"><span class="about-book__chapter-number">04</span><span class="about-book__chapter-name">Nuestra esencia</span><span>→</span></button>
+                    <button type="button" class="about-book__chapter-button" data-book-page="next"><span class="about-book__chapter-number">05</span><span class="about-book__chapter-name">Próximo capítulo</span><span>→</span></button>
+                  </nav>
+                </div>
+                <button type="button" class="about-book__drawer-backdrop" id="about-book-drawer-backdrop" aria-label="Cerrar índice" tabindex="-1"></button>
+                <div class="about-book__content">
+                  <section class="about-book__panel is-active" data-book-panel="history" role="tabpanel">
+                    <div class="about-book__chapter-meta"><span>HISTORELA</span><span>01</span></div><h3>Nuestra <em>historia</em></h3>
+                    <p class="about-book__lead">Toda gran historia comienza con una idea, y la nuestra nació en 2019.</p>
+                    <p>HISTORELA nació del sueño de llevar los libros a más personas. Su historia comenzó cuando nuestra fundadora, quien durante años se había dedicado a la venta de libros al por mayor en el centro de la ciudad, decidió dar un nuevo paso: acercar las historias directamente a los lectores.</p>
+                    <p>Junto a su hija menor, comenzó a buscar un lugar donde ese sueño pudiera hacerse realidad. Así llegó a <strong>Suba</strong>, donde nació nuestra librería, un pequeño proyecto familiar que empezó a construirse con dedicación, ilusión y mucho trabajo en equipo.</p>
+                    <p>En sus inicios, HISTORELA tenía una temática inspirada en las cafeterías, pero, como toda buena historia, fue encontrando su propio camino. Con el paso del tiempo, fuimos creciendo, transformándonos y descubriendo nuevas formas de conectar con nuestros clientes.</p>
+                    <p>Hoy somos mucho más que una librería: somos un espacio donde las historias cobran vida, donde cada persona puede encontrar ese libro que estaba buscando, descubrir nuevas aventuras y compartir momentos a través de la lectura, los juegos y la creatividad.</p>
+                    <blockquote class="about-book__quote">Porque en HISTORELA creemos que cada libro tiene una historia por contar, y que cada persona merece encontrar la suya.</blockquote>
+                  </section>
+                  <section class="about-book__panel" data-book-panel="mission" role="tabpanel" hidden>
+                    <div class="about-book__chapter-meta"><span>HISTORELA</span><span>02</span></div><span class="about-book__small-title">NUESTRA MISIÓN</span><h3>Acercar <em>historias.</em></h3>
+                    <p class="about-book__lead">Acercar la lectura, el entretenimiento y la creatividad a las personas.</p><p>A través de una experiencia cercana y accesible, ofrecemos libros, juegos y productos que permitan descubrir nuevas historias, compartir momentos y estimular la imaginación.</p>
+                    <div class="about-book__ornamental-divider"><span></span>✦<span></span></div><span class="about-book__small-title">NUESTRA VISIÓN</span><h4 class="about-book__secondary-heading">Crecer sin perder nuestra esencia.</h4><p>Queremos que HISTORELA sea reconocida como una librería cercana y diferente, capaz de conectar a nuevas generaciones de lectores con historias y experiencias que despierten su curiosidad.</p><div class="about-book__mini-note"><span>✦</span><p>Seguir creciendo sin perder la cercanía de un proyecto familiar y el amor por las historias.</p></div>
+                  </section>
+                  <section class="about-book__panel" data-book-panel="purpose" role="tabpanel" hidden>
+                    <div class="about-book__chapter-meta"><span>HISTORELA</span><span>03</span></div><span class="about-book__small-title">NUESTRO PROPÓSITO</span><h3>¿Por qué <em>existimos?</em></h3>
+                    <div class="about-book__purpose-statement"><span>Para</span><strong>acercar historias a las personas.</strong></div><p>Creemos que los libros pueden acompañarnos, enseñarnos, sorprendernos y transportarnos a otros mundos.</p><p>Por eso queremos hacer de HISTORELA un espacio cercano, en el que descubrir un libro sea también descubrir una nueva posibilidad.</p><div class="about-book__highlight"><span aria-hidden="true">“</span><p>Cada libro tiene una historia por contar y cada persona merece encontrar la suya.</p></div>
+                  </section>
+                  <section class="about-book__panel" data-book-panel="values" role="tabpanel" hidden>
+                    <div class="about-book__chapter-meta"><span>HISTORELA</span><span>04</span></div><span class="about-book__small-title">NUESTRA ESENCIA</span><h3>Lo que <em>nos mueve.</em></h3>
+                    <div class="about-book__values">
+                      <article class="about-book__value"><span>01</span><div><h4>Pasión por las historias</h4><p>Creemos en el poder de una buena historia para despertar emociones, ideas y recuerdos.</p></div></article>
+                      <article class="about-book__value"><span>02</span><div><h4>Cercanía</h4><p>Queremos que cada persona que llegue a HISTORELA se sienta bienvenida.</p></div></article>
+                      <article class="about-book__value"><span>03</span><div><h4>Curiosidad</h4><p>Siempre hay algo nuevo por descubrir, aprender o imaginar.</p></div></article>
+                      <article class="about-book__value"><span>04</span><div><h4>Espíritu familiar</h4><p>Somos un proyecto que nació en familia y queremos conservar esa esencia en nuestra manera de relacionarnos.</p></div></article>
+                      <article class="about-book__value"><span>05</span><div><h4>Evolución</h4><p>Crecemos, aprendemos y nos transformamos sin olvidar de dónde venimos.</p></div></article>
+                    </div>
+                  </section>
+                  <section class="about-book__panel about-book__panel--ending" data-book-panel="next" role="tabpanel" hidden>
+                    <div class="about-book__chapter-meta"><span>HISTORELA</span><span>05</span></div><div class="about-book__ending-content"><span class="about-book__ending-ornament">✦</span><span class="about-book__small-title">PRÓXIMO CAPÍTULO</span><h3>Y nuestra historia <em>continúa...</em></h3><p>HISTORELA comenzó como el sueño de acercar los libros a más personas.</p><p>Hoy ese sueño sigue creciendo con cada lector, con cada libro que encuentra un nuevo hogar y con cada historia que está esperando ser descubierta.</p><strong class="about-book__ending-message">Porque todos tenemos una historia por encontrar.</strong><a href="#catalog" class="cta-btn cta-primary">Descubre nuestros libros</a></div>
+                  </section>
+                </div>
+                <footer class="about-book__navigation"><button type="button" class="about-book__nav-button" id="about-book-previous" disabled>← Anterior</button><button type="button" class="about-book__index-button" id="about-book-index-button"><span>Página</span><strong id="about-book-current">01</strong><span>de 05</span></button><button type="button" class="about-book__nav-button" id="about-book-next">Siguiente →</button></footer>
+                <span class="about-book__folio about-book__folio--right" id="about-book-folio" aria-hidden="true">01</span>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- I. CONTACT & CONCIERGE -->
+      <section id="contact" class="section-spacing">
+        <div class="container">
+          <div class="section-header-block">
+            <div class="section-header-left">
+              <span class="section-kicker">PERSONALIZED CONCIERGE</span>
+              <h2 class="section-title">Speak with a <em>Bibliophile</em></h2>
+              <p class="section-subtitle">Looking for an out-of-print edition, bespoke library curation, or recommendations for a gift? Our literary curators are at your service.</p>
+            </div>
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1fr 1.2fr; gap: 4rem; align-items: start;">
+            <!-- Contact Details -->
+            <div style="background-color: var(--color-bone-surface); border: 1px solid var(--border-subtle); padding: 2.5rem; border-radius: 4px;">
+              <h4 style="font-family: var(--font-h1); font-size: 1.5rem; color: var(--color-navy); margin-bottom: 1.25rem;">Flagship Sanctuary</h4>
+              
+              <div style="display: flex; flex-direction: column; gap: 1.25rem; font-size: 0.9rem;">
+                <div>
+                  <span class="metadata-tag gold" style="display: block; margin-bottom: 0.25rem;">Address</span>
+                  <p style="color: var(--color-navy); font-weight: 500;">42 Rue de l'Arbre Sec, 75001 Paris, France</p>
+                </div>
+                <div>
+                  <span class="metadata-tag gold" style="display: block; margin-bottom: 0.25rem;">Visiting Hours</span>
+                  <p style="color: var(--color-navy);">Tuesday – Saturday: 10:00 – 19:30<br>Sunday: 11:00 – 18:00 (Closed Mondays)</p>
+                </div>
+                <div>
+                  <span class="metadata-tag gold" style="display: block; margin-bottom: 0.25rem;">Direct Line & Inquiries</span>
+                  <p style="color: var(--color-navy);">concierge@historela.com · +33 (0)1 42 68 20 26</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Inquiries Form -->
+            <form id="contact-form" style="display: flex; flex-direction: column; gap: 1.25rem;">
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                <div>
+                  <label style="display: block; font-family: var(--font-ui); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--color-turquoise); margin-bottom: 0.4rem; font-weight: 600;">Your Name</label>
+                  <input type="text" required placeholder="Elena Rostova" style="width: 100%; padding: 0.85rem 1rem; border: 1px solid var(--border-subtle); background: #FFFFFF; border-radius: 2px; font-family: var(--font-ui); font-size: 0.9rem; outline: none;" />
+                </div>
+                <div>
+                  <label style="display: block; font-family: var(--font-ui); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--color-turquoise); margin-bottom: 0.4rem; font-weight: 600;">Email Address</label>
+                  <input type="email" required placeholder="elena@atelier.com" style="width: 100%; padding: 0.85rem 1rem; border: 1px solid var(--border-subtle); background: #FFFFFF; border-radius: 2px; font-family: var(--font-ui); font-size: 0.9rem; outline: none;" />
+                </div>
+              </div>
+
+              <div>
+                <label style="display: block; font-family: var(--font-ui); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--color-turquoise); margin-bottom: 0.4rem; font-weight: 600;">Subject</label>
+                <input type="text" required placeholder="Custom Book Binding / Literary Gift Recommendation" style="width: 100%; padding: 0.85rem 1rem; border: 1px solid var(--border-subtle); background: #FFFFFF; border-radius: 2px; font-family: var(--font-ui); font-size: 0.9rem; outline: none;" />
+              </div>
+
+              <div>
+                <label style="display: block; font-family: var(--font-ui); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--color-turquoise); margin-bottom: 0.4rem; font-weight: 600;">Message</label>
+                <textarea rows="4" required placeholder="Tell us about the story or subject you wish to discover..." style="width: 100%; padding: 0.85rem 1rem; border: 1px solid var(--border-subtle); background: #FFFFFF; border-radius: 2px; font-family: var(--font-ui); font-size: 0.9rem; outline: none; resize: vertical;"></textarea>
+              </div>
+
+              <button type="submit" class="cta-btn cta-primary" style="align-self: flex-start;">
+                Send Message to Concierge
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top-grid">
+          <!-- Col 1: Brand Info -->
+          <div class="footer-brand-bio">
+            <div class="brand-text-lockup" style="display: inline-flex;">
+              <span class="brand-title" style="color: var(--color-bone);">HISTORELA</span>
+              <span class="brand-subtitle" style="color: var(--color-gold);">BOOKS AND TOYS</span>
+            </div>
+            <p>
+              An independent sanctuary devoted to the art of the printed page and heirloom wooden toys. Every book has a story. Let us help you discover yours.
+            </p>
+          </div>
+
+          <!-- Col 2: Navigation Links -->
+          <div>
+            <h5 class="footer-col-title">Archive</h5>
+            <ul class="footer-links-list">
+              <li><a href="#catalog" onclick="window.historela.selectCategory('fiction')">Literary Fiction</a></li>
+              <li><a href="#catalog" onclick="window.historela.selectCategory('classics')">Heritage Classics</a></li>
+              <li><a href="#catalog" onclick="window.historela.selectCategory('history')">Historical Chronicles</a></li>
+              <li><a href="#catalog" onclick="window.historela.selectCategory('personal-development')">Personal Development</a></li>
+              <li><a href="#catalog" onclick="window.historela.selectCategory('education')">Heirloom Toys & Play</a></li>
+            </ul>
+          </div>
+
+          <!-- Col 3: Experience -->
+          <div>
+            <h5 class="footer-col-title">Sanctuary</h5>
+            <ul class="footer-links-list">
+              <li><a href="#about">Nuestra historia</a></li>
+              <li><a href="#recommendations">Personalized Match</a></li>
+              <li><a href="#contact">Concierge Services</a></li>
+              <li><a href="#home">Artisan Binding Notes</a></li>
+              <li><a href="#trending">Reading Salons</a></li>
+            </ul>
+          </div>
+
+          <!-- Col 4: Newsletter -->
+          <div class="newsletter-box">
+            <h5 class="footer-col-title">The Historela Gazette</h5>
+            <p style="font-size: 0.85rem; color: rgba(250, 245, 234, 0.7); line-height: 1.6;">
+              A fortnightly dispatch on literary rediscoveries, upcoming private editions, and quiet readings.
+            </p>
+            <form class="newsletter-form" id="newsletter-form">
+              <input type="email" required placeholder="Enter your email" aria-label="Email address for literary newsletter" />
+              <button type="submit" class="cta-btn cta-gold" style="padding: 0.75rem 1.25rem; font-size: 0.75rem;">
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Footer Bottom Bar -->
+        <div class="footer-bottom-row">
+          <div>
+            © 2026 HISTORELA — BOOKS AND TOYS. All rights reserved. Strict Brand Manual Compliance.
+          </div>
+          <div style="display: flex; gap: 1.5rem;">
+            <a href="#" style="color: rgba(250,245,234,0.6); text-decoration: none;">Privacy & Archival Policy</a>
+            <a href="#" style="color: rgba(250,245,234,0.6); text-decoration: none;">Terms of Purchase</a>
+            <a href="#" style="color: rgba(250,245,234,0.6); text-decoration: none;">Shipping & Heritage Care</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- PRODUCT DETAIL MODAL (Strict Section G Requirement) -->
+    <div class="modal-backdrop" id="product-modal-backdrop" role="dialog" aria-modal="true" aria-label="Product details">
+      <div class="modal-dialog" id="product-modal-dialog">
+        <!-- Rendered dynamically by js/interactions.js -->
+      </div>
+    </div>
+
+    <!-- SHOPPING BAG / CART DRAWER (Strict Section A Requirement) -->
+    <div class="cart-drawer-backdrop" id="cart-drawer-backdrop" role="dialog" aria-modal="true" aria-label="Shopping bag">
+      <div class="cart-drawer">
+        <div class="cart-header">
+          <h3 class="cart-title">Your Reading Bag</h3>
+          <button class="nav-icon-btn" id="cart-close-btn" aria-label="Close bag">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Items Container -->
+        <div class="cart-items-list" id="cart-items-list">
+          <!-- Dynamically populated -->
+        </div>
+
+        <!-- Cart Footer -->
+        <div class="cart-footer">
+          <div class="shipping-meter-wrap">
+            <div class="shipping-meter-text" id="shipping-meter-text">Free express shipping above $60.00</div>
+            <div class="shipping-progress-bar">
+              <div class="shipping-progress-fill" id="shipping-meter-fill" style="width: 53%;"></div>
+            </div>
+          </div>
+
+          <div class="cart-subtotal-row">
+            <span class="cart-subtotal-label">Subtotal</span>
+            <span class="cart-subtotal-val" id="cart-subtotal">$32.00</span>
+          </div>
+
+          <button class="cta-btn cta-primary" id="cart-checkout-btn" style="width: 100%;">
+            Proceed to Checkout
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </button>
+          <div style="font-size: 0.72rem; color: #6a7f96; text-align: center; margin-top: 0.75rem;">
+            Complimentary archival gift wrapping & bookplate included
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LIVE SEARCH MODAL (Strict Section A Requirement) -->
+    <div class="search-modal-backdrop" id="search-backdrop" role="dialog" aria-modal="true" aria-label="Search catalog">
+      <div class="search-container">
+        <div class="search-input-row">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: var(--color-turquoise);">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input type="text" class="search-input" id="search-input" placeholder="Search by title, author, or publisher..." aria-label="Search field" />
+          <button class="nav-icon-btn" id="search-close-btn" aria-label="Close search">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+        <div class="search-results-list" id="search-results">
+          <!-- Dynamically populated -->
+        </div>
+      </div>
+    </div>
+
+    <!-- TOAST NOTIFICATION -->
+    <div class="toast-notification" id="toast-notification" role="status" aria-live="polite"></div>
+
+    <!-- MAIN BOOTSTRAP SCRIPT (Vanilla JS ES6+) -->
+    
+    <!-- HISTORELA: libro interactivo autocontenido -->
+    <script data-inline-book-script="true">
+      (() => {
+        function initHistorelaBook() {
+          const book = document.getElementById('about-interactive-book');
+          if (!book || book.dataset.inlineBookReady === 'true') return;
+          book.dataset.inlineBookReady = 'true';
+
+          const chapters = [...book.querySelectorAll('.about-book__chapter-button')];
+          const panels = [...book.querySelectorAll('.about-book__panel')];
+          const prev = document.getElementById('about-book-previous');
+          const next = document.getElementById('about-book-next');
+          const indexButton = document.getElementById('about-book-index-button');
+          const current = document.getElementById('about-book-current');
+          const folio = document.getElementById('about-book-folio');
+          const trigger = document.getElementById('about-book-drawer-trigger');
+          const drawer = document.getElementById('about-book-drawer');
+          const closeButton = document.getElementById('about-book-drawer-close');
+          const backdrop = document.getElementById('about-book-drawer-backdrop');
+          const sheet = document.getElementById('about-book-turning-sheet');
+          const order = ['history', 'mission', 'purpose', 'values', 'next'];
+          let index = 0;
+          let animating = false;
+          const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+          const openDrawer = () => {
+            book.classList.add('drawer-open');
+            drawer?.setAttribute('aria-hidden', 'false');
+            trigger?.setAttribute('aria-expanded', 'true');
+          };
+
+          const closeDrawer = () => {
+            book.classList.remove('drawer-open');
+            drawer?.setAttribute('aria-hidden', 'true');
+            trigger?.setAttribute('aria-expanded', 'false');
+          };
+
+          function activate(pageName) {
+            panels.forEach(panel => {
+              const active = panel.dataset.bookPanel === pageName;
+              panel.hidden = !active;
+              panel.classList.toggle('is-active', active);
+              panel.setAttribute('aria-hidden', String(!active));
+              if (active) panel.scrollTop = 0;
+            });
+
+            chapters.forEach(button => {
+              const active = button.dataset.bookPage === pageName;
+              button.classList.toggle('is-active', active);
+              button.setAttribute('aria-current', active ? 'page' : 'false');
+            });
+
+            index = order.indexOf(pageName);
+            const page = String(index + 1).padStart(2, '0');
+            if (current) current.textContent = page;
+            if (folio) folio.textContent = page;
+            if (prev) prev.disabled = index === 0;
+            if (next) next.disabled = index === order.length - 1;
+            book.dataset.activePage = pageName;
+          }
+
+          function go(pageName) {
+            const target = order.indexOf(pageName);
+            if (target < 0 || target === index || animating) {
+              closeDrawer();
+              return;
+            }
+
+            closeDrawer();
+            if (reduceMotion.matches || window.innerWidth <= 768) {
+              activate(pageName);
+              return;
+            }
+
+            animating = true;
+            const flipClass = target > index ? 'is-turning-forward' : 'is-turning-backward';
+            book.classList.remove('is-turning-forward', 'is-turning-backward');
+            if (sheet) void sheet.offsetWidth;
+            book.classList.add(flipClass);
+            window.setTimeout(() => activate(pageName), 280);
+            window.setTimeout(() => {
+              book.classList.remove(flipClass);
+              animating = false;
+            }, 640);
+          }
+
+          trigger?.addEventListener('click', () => {
+            book.classList.contains('drawer-open') ? closeDrawer() : openDrawer();
+          });
+          closeButton?.addEventListener('click', closeDrawer);
+          backdrop?.addEventListener('click', closeDrawer);
+          indexButton?.addEventListener('click', openDrawer);
+          chapters.forEach(button => button.addEventListener('click', () => go(button.dataset.bookPage)));
+          prev?.addEventListener('click', () => index > 0 && go(order[index - 1]));
+          next?.addEventListener('click', () => index < order.length - 1 && go(order[index + 1]));
+
+          book.addEventListener('keydown', event => {
+            if (event.key === 'Escape') closeDrawer();
+            if (event.key === 'ArrowRight' && !book.classList.contains('drawer-open') && index < order.length - 1) {
+              event.preventDefault();
+              go(order[index + 1]);
+            }
+            if (event.key === 'ArrowLeft' && !book.classList.contains('drawer-open') && index > 0) {
+              event.preventDefault();
+              go(order[index - 1]);
+            }
+          });
+
+          activate(order[0]);
+        }
+
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', initHistorelaBook, { once: true });
+        } else {
+          initHistorelaBook();
+        }
+      })();
+    </script>
+
+<script type="module" src="./js/main.js"></script>
+  </body>
+</html>
